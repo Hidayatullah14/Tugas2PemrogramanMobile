@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Halaman2">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prediksi Liga Champions PSG vs Barcelona"
+        android:textColor="@color/purple_500"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="372dp"
+        android:layout_height="132dp"
+        android:text=" Paris Saint-Germain (PSG) akan meladeni Barcelona pada leg kedua 16 besar Liga Champions 2020/2021,
+ Kamis (11/3/2021) dini hari WIB. Barca akan
+ mencari keajaiban untuk melangkah ke babak perempat final.
+Pada leg pertama di Camp Nou, Barcelona dipermak PSG 1-4.
+Barcelona unggul lewat penalti Lionel Messi di menit 27,
+ tapi PSG mencetak gol-gol balasan melalui hat-trick Kylian Mbappe
+ (32', 65', 85) dan satu gol Moise Kean."
+        android:textColor="@color/purple_500"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="371dp"
+        android:layout_height="159dp"
+        android:text=" Di atas kertas, peluang PSG lolos ke babak berikutnya lebih besar daripada Barcelona. Namun, masih ada duel penentuan di Paris ini, dan segala kemungkinan masih terbuka.
+Barcelona punya sejarah membalikkan keadaan kontra PSG. Itu tersaji di babak 16 besar Liga Champions 2016/2017. Barcelona kalah 0-4 pada leg pertama di Paris, kemudian menampilkan aksi comeback
+fantastis dengan kemenangan 6-1 pada leg kedua di Camp Nou.
+Siapakah di antara PSG atau Barcelona yang akan melenggang ke perempat final? Mampukah Barcelona menciptakan keajaiban untuk kedua kali melawan PSG? "
+        android:textColor="@color/purple_500"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ucl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:onClick="Biodata"
+        android:text="Ke Biodata"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84"
+        tools:ignore="DuplicateIds,MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="129dp"
+        android:layout_height="61dp"
+        android:onClick="Beranda"
+        android:text="Ke Beranda"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
